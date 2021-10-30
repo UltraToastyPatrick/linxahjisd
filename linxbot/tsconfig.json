@@ -1,0 +1,14 @@
+{
+    "compilerOptions": {
+        "outDir": "./dir",
+        "module": "commonjs",
+        "target": "es6",
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noEmit": true,
+        "forceConsistentCasingInFileNames": true,
+        "experimentalDecorators": true
+    },
+    "include": ["./src/**/*"],
+    "exclude": ["node_modules"]
+}
